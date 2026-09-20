@@ -14,6 +14,7 @@
 <p align="center">
 <img width="1525" height="780" alt="Screenshot 2026-09-20 143749" src="https://github.com/user-attachments/assets/40f1b7bc-523f-459a-9a95-7165a3fd04cb" />
 </p>
+---
 
 ## ✨ Fitur Utama
 
@@ -21,16 +22,19 @@
   <p align="center">
  <img width="1532" height="767" alt="Screenshot 2026-09-20 143810" src="https://github.com/user-attachments/assets/aba34050-0de3-435c-b3d0-3cc55d6be29c" />
  </p>
+ ---
  
 - ## 🎯 **Materi taktik**: strategi menyerang, bertahan, dan transisi cepat lewat video YouTube.
  <p align="center">
 <img width="1532" height="778" alt="Screenshot 2026-09-20 143837" src="https://github.com/user-attachments/assets/43019767-a04d-4af1-b56b-815cc40d62d8" />
 </p>
+---
 
 - ## 👤 **Pemain kunci**: penjelasan peran Playmaker, Striker, Winger, dan Bek Tengah.
    <p align="center">
   <img width="1521" height="773" alt="Screenshot 2026-09-20 143855" src="https://github.com/user-attachments/assets/597e1aee-d5ff-4a9b-82ab-24f28b3a0f73" />
   </p>
+  ---
 
 - ## 📝 **Form belajar interaktif**:
   - Validasi nama (hanya huruf dan spasi) dan email di sisi klien (JavaScript).
@@ -39,20 +43,22 @@
 <p align="center">
 <img width="1535" height="766" alt="Screenshot 2026-09-20 143925" src="https://github.com/user-attachments/assets/75f43c17-7535-46e7-8f37-93d3fa36a211" /> 
 </p>
+---
     
 - ## 🎬 **Rekomendasi video personal**: video pembelajaran muncul sesuai strategi yang dipilih (Menyerang, Bertahan, Transisi Cepat, High Press, Possession Play).
 
 <p align="center">
 <img width="1533" height="778" alt="Screenshot 2026-09-20 144025" src="https://github.com/user-attachments/assets/5aa15654-fdf2-44a8-8d72-ac8a8d0d10c4" />
 </p>
+---
 
 
 - ## 🏅 **Sertifikat digital otomatis**: memuat nama pengunjung, tanda tangan, dan **QR code** verifikasi, serta bisa dicetak langsung dari browser.
 <p align="center">
 <img width="1531" height="778" alt="Screenshot 2026-09-20 144046" src="https://github.com/user-attachments/assets/aa2826b0-fb91-4551-b0a5-0a5570b06079" />
 </p>
-
 ---
+
 
 ## 🛠️ Teknologi yang Digunakan
 
