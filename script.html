@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script> 
+    //fungsi Javascript untuk validasi 
+    function validasiInput(event) {
+        //mencegah pengiriman fourmulir standar
+        event.preventDefault();
+
+        //Mendapatkan nilai dari input field dengan ID "namaImput"
+        const inputElement = document.getElementById("namaInput");
+        const nilaiInput = inputElement.value;
+        const hasilValidasi = document.getElementById("hasilValidasi");
+
+        //Regular Ecoressuib (regex) untuk mencocokan hanya huruf (a-z, A-Z) dan spasi 
+        const regexHanyaKarakter = /^[a-zA-Z\s]+$/ ;
+
+        if(regexHanyaKarakter.test(nilaiInput)){
+            //input valid (hanya karakter dan spasi)
+            hasilValidasi.textContent = "Input berhasil Data Anda: " + nilaiInput;
+            hasilValidasi.style.color = "grenn";
+            // Di sini Anda bisa menambahkan logika pengiriman data ke server jika diperlukan
+        } else {
+            //input tidak valid (mengandunng angka atau simbol)
+            hasilValidasi.textContent = "Error: Input hanya boleh mengandung huruf dan spasi";
+            hasilValidasi.style.color = "red";
+            inputElement.focus(); // mengebalikan fojus ke inpur field
+        }
+
+    }
+ </script>
+</head>
+<body>
+      <h2>Formulir Validasi  Sederhana</h2>
+      
+      <form onsubmit="validasiInput(event)">
+        <label for="namaInput">Masukan nama (hanya Karakter):</label><br>
+        <input type="text" id="namaInput" name="nameInput" placeholder="Ketik nama anda di sini">
+        <br><br>
+        <button type="submit">Submit Data</button>
+      </form>
+
+      <!-- Area untuk menampilkan hasil validasi -->
+       <p id="hasilValidasi" ></p>
+</body>
+</html>
+
